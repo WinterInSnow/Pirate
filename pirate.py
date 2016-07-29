@@ -1,4 +1,5 @@
-import random
-for i in range(100):
-print "Arr, matey"
+
+with open('treasure.txt') as fh:
+    for line in fh:
+    print line
 }
